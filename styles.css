@@ -21,26 +21,32 @@ html {
   line-height: 1.5;
 }
 
+body {
+  font-size: 15px;
+  background: var(--light-gray);
+}
+
 .layout {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: var(--light-gray);
-  font-size: 15px;
 }
 
 .card {
   width: 320px;
   padding: var(--size);
   background: var(--white);
-  border-radius: 1rem;
+}
+
+.card,
+img {
+  border-radius: var(--size);
 }
 
 img {
   width: 100%;
   height: auto;
-  border-radius: .7rem;
 }
 
 .card__banner {
@@ -48,7 +54,7 @@ img {
 }
 
 .card__title {
-  font-size: 1.35rem;
+  font-size: 1.375rem;
   font-weight: 700;
   text-align: center;
   color: var(--dark-blue);
