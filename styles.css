@@ -22,7 +22,6 @@ html {
 }
 
 body {
-  font-size: 15px;
   background: var(--light-gray);
 }
 
@@ -66,6 +65,7 @@ img {
 }
 
 .card__desc {
+  font-size: 0.9375rem;
   font-weight: 400;
   color: var(--blue);
   text-align: center;
