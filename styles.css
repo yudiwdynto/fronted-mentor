@@ -48,23 +48,23 @@ img {
   height: auto;
 }
 
-.card__banner {
+.card-banner {
   margin-bottom: 1.2rem;
 }
 
-.card__title {
+.card-title {
   font-size: 1.375rem;
   font-weight: 700;
   text-align: center;
   color: var(--dark-blue);
 }
 
-.card__title,
-.card__desc {
+.card-title,
+.card-desc {
   margin: 0 var(--size) var(--size);
 }
 
-.card__desc {
+.card-desc {
   font-size: 0.9375rem;
   font-weight: 400;
   color: var(--blue);
