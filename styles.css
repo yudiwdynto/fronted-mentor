@@ -38,10 +38,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: min(85%, 20rem);
 }
 
 .card {
+  max-width: 19rem;
   padding: var(--size);
   background-color: var(--white);
 }
@@ -69,7 +69,7 @@ img {
 
 .card-title,
 .card-desc {
-  margin: 0 var(--size) var(--size);
+  margin: 0 .7rem .7rem;
 }
 
 .card-desc {
@@ -80,8 +80,7 @@ img {
 }
 
 .attribution {
-  padding-block-start: 1rem;
-  padding-block-end: .7rem;
+  padding-block: 1rem;
   font-size: .8rem;
   text-align: center;
 }
