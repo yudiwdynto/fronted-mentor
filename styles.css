@@ -57,7 +57,7 @@ img {
 }
 
 .card-banner {
-  margin-bottom: 1.2rem;
+  margin-bottom: var(--size);
 }
 
 .card-title {
@@ -80,7 +80,7 @@ img {
 }
 
 .attribution {
-  padding-block: 1rem;
+  padding-block: var(--size);
   font-size: .8rem;
   text-align: center;
 }
