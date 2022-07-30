@@ -27,15 +27,23 @@ body {
 
 .layout {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   min-height: 100vh;
 }
 
+.content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: min(85%, 20rem);
+}
+
 .card {
-  width: 320px;
   padding: var(--size);
-  background: var(--white);
+  background-color: var(--white);
 }
 
 .card,
@@ -72,9 +80,9 @@ img {
 }
 
 .attribution {
-  position: fixed;
-  bottom: 1.1rem;
-  font-size: .9rem;
+  padding-block-start: 1rem;
+  padding-block-end: .7rem;
+  font-size: .8rem;
   text-align: center;
 }
 
